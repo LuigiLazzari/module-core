@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<csp_whitelist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Csp/etc/csp_whitelist.xsd">
+    <policies>
+        <policy id="script-src">
+            <values>
+                <!-- S7 Add This-->
+                <value id="s7-addthis" type="host">s7.addthis.com</value>
+            </values>
+        </policy>
+        <policy id="style-src">
+            <values>
+                <!-- Google -->
+                <value id="google" type="host">fonts.googleapis.com</value>
+            </values>
+        </policy>
+        <policy id="font-src">
+            <values>
+                <!-- Google -->
+                <value id="google" type="host">fonts.gstatic.com</value>
+            </values>
+        </policy>
+    </policies>
+</csp_whitelist>

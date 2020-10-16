@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Atonit\Core\Plugin;
+namespace Genesis\Core\Plugin;
 
 use Magento\Framework\App\Config\ScopeConfigInterface;
 use Magento\TwoFactorAuth\Model\TfaSession;
