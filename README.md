@@ -1,2 +1,3 @@
-# module-core
-Magento 2 Module Core, with common functionalities
+# Core Genesis Module
+
+Creates a new tab 'Genesis' on the store configuration page.
