@@ -12,4 +12,13 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
             $store
         );
     }
+
+    public function getWebsiteConfigValue($configField, $website = null)
+    {
+        return $this->scopeConfig->getValue(
+            $configField,
+            \Magento\Store\Model\ScopeInterface::SCOPE_WEBSITE,
+            $website
+        );
+    }
 }
